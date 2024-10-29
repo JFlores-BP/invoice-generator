@@ -18,32 +18,13 @@ export const metadata: Metadata = {
     },
   },
   title:
-    "Free Invoice Generator: Create & Send Professional Invoices in Minutes",
+    "BP Invoices Generator",
   description:
-    "Get paid on time with our free invoice maker. Create professional invoices & get them to clients instantly.",
+    "Generate BP Invoices.",
   keywords: [
-    "invoice generator",
-    "free invoice template",
-    "invoice maker",
-    "online invoice",
-    "create invoice",
+    ""
   ],
-  robots: "index, follow",
-  openGraph: {
-    title:
-      "Free Invoice Generator: Create & Send Professional Invoices in Minutes",
-    description:
-      "Get paid on time with our free invoice maker. Create professional invoices & get them to clients instantly.",
-    url: process.env.NEXT_PUBLIC_URL,
-    type: "website",
-    images: "/og-image.jpeg",
-    siteName: "Invoice Generator",
-  },
-  twitter: {
-    card: "summary_large_image",
-    site: "@ThatsPranav",
-    creator: "@ThatsPranav",
-  },
+  robots: "index, follow"
 };
 
 export default function RootLayout({

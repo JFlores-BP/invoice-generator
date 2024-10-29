@@ -13,18 +13,12 @@ export const YourDetailsPDF: React.FC<YourDetails> = ({
   yourCity,
   yourState,
   yourCountry,
-  yourLogo,
   yourTaxId,
   yourZip,
 }) => (
   <View style={pdfContainers.YourDetails}>
     <Text style={{ ...pdfTypography.title, marginBottom: 14 }}>From</Text>
 
-    <View style={pdfContainers.imageContainer}>
-      {yourLogo && (
-        <Image style={{ height: 40, borderRadius: 6 }} src={yourLogo} />
-      )}
-    </View>
     {yourName && <Text style={pdfTypography.text2xl}>{yourName}</Text>}
     {yourEmail && (
       <Text style={{ ...pdfTypography.description, marginBottom: 12 }}>

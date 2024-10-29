@@ -39,7 +39,6 @@ export const NewInvoiceForm = () => {
                 />
                 <div>
                   <p className="font-semibold">Invoice Generator</p>
-                  <p className="text-orange-500 text-sm">By Prolab</p>
                 </div>
               </div>
               <UserInputForm />

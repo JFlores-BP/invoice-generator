@@ -54,8 +54,8 @@ const step3 = {
     step: "2",
   },
   nextStep: {
-    title: "Payment Details",
-    step: "4",
+    title: "Invoice Terms",
+    step: "5",
   },
 };
 const step4 = {
@@ -71,8 +71,8 @@ const step4 = {
 
 const step5 = {
   previous: {
-    title: "Payment Details",
-    step: "4",
+    title: "Invoice details",
+    step: "3",
   },
   nextStep: {
     title: "Review & download",

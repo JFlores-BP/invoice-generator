@@ -4,51 +4,44 @@ import ImageInput from "@/app/component/ui/imageInput";
 
 export const CompanyDetailsForm = () => (
   <div className="pt-24">
-    <p className="text-2xl font-semibold pb-3">Company Details (To)</p>
+    <p className="text-2xl font-semibold pb-3">BP Details</p>
     <CustomTextInput
       label="Email"
-      placeholder="e.g. pranav@prolab.sh"
+      placeholder="e.g. leonardo@big.partners"
       variableName="email"
     />
     <p className="pb-10 pt-3 text-xs font-medium text-neutral-500">
-      We&apos;ll fill the billing details automatically if we find the company.
     </p>
     <p className="pb-2 text-sm font-medium text-neutral-500">Billing details</p>
     <CustomTextInput
       label="Company name"
-      placeholder="Prolab Inc"
+      placeholder="Big Partners LLC"
       variableName="companyName"
     />
-    <ImageInput label="Logo" variableName="companyLogo" />
     <CustomTextInput
       label="Address"
-      placeholder="Whitefield Circle,12"
+      placeholder="Gascon 1409"
       variableName="companyAddress"
     />
     <CustomTextInput
       label="City"
-      placeholder="Bangalore"
+      placeholder="CABA"
       variableName="companyCity"
     />
     <CustomTextInput
       label="State"
-      placeholder="Karnataka"
+      placeholder="Buenos Aires"
       variableName="companyState"
     />
     <CustomNumberInput
       label="Zip"
-      placeholder="560066"
+      placeholder="1111"
       variableName="companyZip"
     />
     <CustomTextInput
       label="Country"
-      placeholder="India"
+      placeholder="Argentina  "
       variableName="companyCountry"
-    />
-    <CustomTextInput
-      label="Tax ID"
-      placeholder="GSTIN 1234"
-      variableName="companyTaxId"
     />
   </div>
 );
